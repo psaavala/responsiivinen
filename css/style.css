@@ -1,3 +1,6 @@
+
+/* Next section adds universal variables for colors used in later code, and some basic padding and margin for box models. */
+
 :root {
     --dark-background-color: #333;
     --light-background-color: #f5f5f5;
@@ -8,6 +11,10 @@
     --general-padding: 2em;
     --general-margin: 1em;
 }
+
+
+/*This section resets default margins/paddings made by browser,
+and sets default font and color pulled from variable defined in previous section*/
 
 * {
     margin: 0;
